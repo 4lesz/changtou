@@ -1,0 +1,49 @@
+name: 兼容性反馈
+description: 告诉我们某个 App 能不能投到畅投
+labels: ["兼容性"]
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App 名称和版本
+      placeholder: 例如：腾讯视频 8.9，iPad
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: 结果
+      options:
+        - 能搜到，能正常播放
+        - 能搜到，但播放失败
+        - 能搜到，能播放，但控制（暂停/进度/音量）不正常
+        - 搜不到畅投
+    validations:
+      required: true
+  - type: dropdown
+    id: content
+    attributes:
+      label: 投的是什么内容
+      options:
+        - 免费内容
+        - 会员内容
+        - 本地或网盘视频
+        - 直播
+        - 音乐或图片
+        - 其他
+  - type: input
+    id: version
+    attributes:
+      label: 畅投版本号和版本（普通版/增强版）
+      placeholder: 例如：1.0.4-57 普通版
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 投影仪/电视盒子型号和安卓版本
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充说明
+      description: 屏幕上有错误提示请照抄。

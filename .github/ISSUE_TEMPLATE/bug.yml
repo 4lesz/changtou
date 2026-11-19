@@ -1,0 +1,51 @@
+name: 问题反馈
+description: 搜不到设备、播放失败、闪退、遥控器不好用等问题
+labels: ["问题"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        先看一下 README 里的“常见问题”，很多情况（搜不到、开机后搜不到、没声音）那里有解决办法。
+        会员片源、版权加密内容投不了属于正常限制，不算问题。
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 你做了什么操作，期望怎样，实际怎样。屏幕上有提示文字请照抄。
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 畅投版本号
+      description: 在畅投“设置”页最下面，例如 1.0.4-57
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: 装的哪个版本
+      options:
+        - 普通版
+        - 增强版（enhanced）
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 投影仪/电视盒子型号和安卓版本
+      placeholder: 例如：某品牌 X3，安卓 9
+    validations:
+      required: true
+  - type: input
+    id: sender
+    attributes:
+      label: 用什么投屏
+      placeholder: 例如：iPad 上的 B站，安卓手机上的百度网盘
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 截图或其他补充
+      description: 可以拖入截图或屏幕照片。

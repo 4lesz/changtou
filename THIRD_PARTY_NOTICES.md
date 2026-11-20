@@ -9,6 +9,7 @@
 | [Guava](https://github.com/google/guava)（Media3 的依赖） | — | 基础工具库 | Apache License 2.0 | 普通版、增强版 |
 | [Kotlin 标准库](https://github.com/JetBrains/kotlin) | — | 编程语言运行库 | Apache License 2.0 | 普通版、增强版 |
 | [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd) | 2.3.1 | 局域网 HTTP 服务（接收投屏指令） | BSD 3-Clause | 普通版、增强版 |
+| [ZXing](https://github.com/zxing/zxing)（`com.google.zxing:core`） | 3.3.3 | 在本机生成“关于”页的二维码 | Apache License 2.0 | 普通版、增强版 |
 | [libVLC for Android](https://code.videolan.org/videolan/vlc-android)（`org.videolan.android:libvlc-all`） | 3.6.5 | 备用播放内核（软件解码） | GNU LGPL 2.1 或更高版本 | 仅增强版 |
 
 ## libVLC（仅增强版）
@@ -23,7 +24,7 @@
 
 ## Apache License 2.0
 
-AndroidX Media3、AndroidX、Guava、Kotlin 标准库按 Apache License 2.0 授权：
+AndroidX Media3、AndroidX、Guava、Kotlin 标准库、ZXing 按 Apache License 2.0 授权：
 
 ```
 Licensed under the Apache License, Version 2.0 (the "License");

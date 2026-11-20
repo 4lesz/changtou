@@ -7,6 +7,8 @@
 - 遥控器就能操作完所有界面
 - 开机自动运行，投影仪打开后直接投，不用先进 App
 
+> **官方下载只有本页**，作者 4lesz。如果你是花钱买到的畅投，或者在里面看到了广告、收费提示，那都不是官方版本，请到这里免费下载。
+
 > **当前是预览版**：已在 Android TV 模拟器上测试通过，还在投影仪真机上验证中。遇到问题欢迎[反馈](../../issues/new/choose)。
 
 ## 下载
@@ -98,7 +100,15 @@ adb shell appops set com.changtou.dmr SYSTEM_ALERT_WINDOW allow
 
 ## 反馈问题
 
-到 [Issues](../../issues/new/choose) 提交，请写上投影仪型号、安卓版本、畅投版本号（设置页最下面）和用的哪个 App 投屏。
+到 [Issues](../../issues/new/choose) 提交，或者发邮件到 **3112239014@qq.com**。请写上投影仪型号、安卓版本、畅投版本号（设置页最下面）和用的哪个 App 投屏。
+
+## 自愿资助
+
+觉得好用，可以请作者喝杯咖啡。完全自愿，不资助也能使用全部功能。畅投里的“关于与资助”页面也有同样的收款码。
+
+| 微信 | 支付宝 |
+| :---: | :---: |
+| <img src="assets/donate_wechat.png" width="220" alt="微信收款码"> | <img src="assets/donate_alipay.png" width="220" alt="支付宝收款码"> |
 
 ## 许可
 
